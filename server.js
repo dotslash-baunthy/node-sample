@@ -7,6 +7,7 @@ var server = app.listen(8081, function () {
 
     app.get('/', function (req, res) {
         res.send(`Example app listening at http://${host}:${port}"`);
+        console.log("TEST");
     })
 
 })
